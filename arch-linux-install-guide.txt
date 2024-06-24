@@ -191,3 +191,6 @@ from i3:
 > sudo vim /etc/pacman.conf
 	* uncomment [multilib] in /etc/
 
+// easy hyprland obs fix:
+Go into your ~/.bashrc file and write:
+	export QT_QPA_PLATFORM=wayland
